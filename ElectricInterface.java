@@ -1,7 +1,10 @@
 
 public interface ElectricInterface {
 
-    public double calcMPGEquivalent();
-    public void setTotalMiles(int totalMiles);
+    public double getMPGe();
+    public void setElectricMiles(int totalElectricMiles);
+    public void setTotalkWh(int totalkWh);
 
 }
+
+

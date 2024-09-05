@@ -1,6 +1,11 @@
 public interface GasolineInterface {
     
-    public double getMPGfromGas();
-    public void setMPGfromGas(double mpg);
+    public void setMilesfromGas(double miles);
+    public void setGallonsfromGas(double gallons);
+    public double getGasMPG();
 
 }
+
+
+
+
