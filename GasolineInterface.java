@@ -1,8 +1,8 @@
 public interface GasolineInterface {
     
-    public double calcGasMPG();
-    public void setMilesfromGas(double miles);
-    public void setGallonsfromGas(double gallons);
+    double calcGasMPG();
+    void setMilesfromGas(double miles);
+    void setGallonsfromGas(double gallons);
     
 }
 

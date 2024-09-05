@@ -1,9 +1,9 @@
 
 public interface ElectricInterface {
 
-    public double getMPGe();
-    public void setElectricMiles(int totalElectricMiles);
-    public void setTotalkWh(int totalkWh);
+    double calcMPGe();
+    void setElectricMiles(int totalElectricMiles);
+    void setTotalkWh(int totalkWh);
 
 }
 
