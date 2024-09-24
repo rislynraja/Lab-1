@@ -8,3 +8,12 @@
 >
 >> CodeSpace> java -cp "hamcrest-core-1.3.jar:junit-4.13.2.jar:."   org.junit.runner.JUnitCore     src.u.HybridTests
  
+Run the following lines of code:
+
+mvn archetype:generate -DgroupId=com.companyname.bank -DartifactId=consumerBanking -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+cd ./consumerBanking
+
+mvn clean compile
+
+mvn test
